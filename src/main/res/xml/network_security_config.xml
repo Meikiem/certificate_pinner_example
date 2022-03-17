@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <!-- This URL is just a sample. it will be replaces with the real ICCPD address -->
+        <domain includeSubdomains="true">self-signed.badssl.com</domain>
+        <trust-anchors>
+            <certificates src="@raw/bad_ssl"/>
+        </trust-anchors>
+        <!-- This part could be uncomment and be used to pin SHA-256 -->
+<!--        <pin-set expiration="2023-10-11">
+            <pin digest="SHA-256">9SLklscvzMYj8f+52lp5ze/hY0CFHyLSPQzSpYYIBm8=</pin>
+            <pin digest="SHA-256">47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</pin>
+        </pin-set>-->
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SSL Pin</string>
+    <string name="loaded">Loaded %s</string>
+    <string name="loading_prevented">Loading prevented, %s</string>
+    <string name="certificate_pinning">Certificate pinning</string>
+    <string name="button_url">load URL</string>
+</resources>
